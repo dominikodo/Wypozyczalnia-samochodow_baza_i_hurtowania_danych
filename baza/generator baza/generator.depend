@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1673216681 source:c:\users\magda\onedrive\pulpit\generator\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
