@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\wojewodztwo.csv'
+append into table WOJEWODZTWO
+fields terminated by ','
+(Id,Nazwa)

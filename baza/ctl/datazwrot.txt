@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\datazwrot.csv'
+append into table DATA_ZWROTU
+fields terminated by ','
+(Id,Data_zwrotu DATE "DD-MM-YYYY")

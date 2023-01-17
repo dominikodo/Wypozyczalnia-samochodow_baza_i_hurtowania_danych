@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\placowka.csv'
+append into table PLACOWKA
+fields terminated by ','
+(Id,Nazwa,ADRES_PLACOWKI_Id)

@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\model.csv'
+append into table MODEL
+fields terminated by ','
+(Id,Nazwa)

@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\marka.csv'
+append into table MARKA
+fields terminated by ','
+(Id,Nazwa)

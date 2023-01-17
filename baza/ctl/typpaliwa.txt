@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\typpaliwa.csv'
+append into table TYP_PALIWA
+fields terminated by ','
+(Id,Paliwo)

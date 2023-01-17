@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\klient.csv'
+append into table KLIENCI
+fields terminated by ','
+(Id,Imie,Nazwisko,Pesel,Nr_dowodu,Nr_telefonu,Nr_prawa_jazdy,ADRES_KLIENTA_Id)

@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\miasto.csv'
+append into table MIASTO
+fields terminated by ','
+(Id,Nazwa)

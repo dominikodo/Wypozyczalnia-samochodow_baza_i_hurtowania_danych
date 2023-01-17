@@ -1,0 +1,54 @@
+
+SQL*Loader: Release 21.0.0.0.0 - Production on Sun Jan 15 00:32:49 2023
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   C:\Users\piese\Desktop\Bazydanych 2\baza\ctl\adresplacowki.txt
+Data File:      C:\Users\piese\Desktop\Bazydanych 2\baza\csv\adresplacowki.csv
+  Bad File:     C:\Users\piese\Desktop\Bazydanych 2\baza\ctl\adresplacowki.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table ADRES_PLACOWKI, loaded from every logical record.
+Insert option in effect for this table: APPEND
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID                                  FIRST     *   ,       CHARACTER            
+ULICA                                NEXT     *   ,       CHARACTER            
+NR_DOMU                              NEXT     *   ,       CHARACTER            
+NR_LOKALU                            NEXT     *   ,       CHARACTER            
+KOD_POCZTOWY                         NEXT     *   ,       CHARACTER            
+WOJEWODZTWO_ID                       NEXT     *   ,       CHARACTER            
+MIASTO_ID                            NEXT     *   ,       CHARACTER            
+
+
+Table ADRES_PLACOWKI:
+  70 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 451500 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            70
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Sun Jan 15 00:32:49 2023
+Run ended on Sun Jan 15 00:32:50 2023
+
+Elapsed time was:     00:00:00.23
+CPU time was:         00:00:00.16

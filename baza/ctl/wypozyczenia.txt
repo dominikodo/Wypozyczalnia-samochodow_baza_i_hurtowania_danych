@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\wypozyczenia.csv'
+append into table WYPOZYCZENIE
+fields terminated by ','
+(Id,PLACOWKA_Id,PRACOWNICY_Id,KLIENCI_Id,SAMOCHODY_Id,DATA_WYPOZYCZENIA_Id)

@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\zwrot.csv'
+append into table ZWROT
+fields terminated by ','
+(Id,Kwota_zaplaty,PLACOWKA_Id,PRACOWNICY_Id,KLIENCI_Id,SAMOCHODY_Id,WYPOZYCZENIE_Id,DATA_ZWROTU_Id)

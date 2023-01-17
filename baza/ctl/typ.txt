@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\typ.csv'
+append into table TYP
+fields terminated by ','
+(Id,Nazwa)

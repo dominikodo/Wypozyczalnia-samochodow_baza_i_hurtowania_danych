@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\rejestracja.csv'
+append into table REJESTRACJA
+fields terminated by ','
+(Nr_rejestracyjny,SAMOCHODY_Id)

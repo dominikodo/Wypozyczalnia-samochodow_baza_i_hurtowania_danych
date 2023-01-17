@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\stanowisko.csv'
+append into table STANOWISKO
+fields terminated by ','
+(Id,Nazwa)

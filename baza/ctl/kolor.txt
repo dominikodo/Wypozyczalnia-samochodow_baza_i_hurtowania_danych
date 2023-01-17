@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\kolor.csv'
+append into table KOLOR
+fields terminated by ','
+(Id,Nazwa)

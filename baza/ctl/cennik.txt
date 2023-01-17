@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\cennik.csv'
+append into table CENNIK
+fields terminated by ','
+(Id,Cena_za_dobe)

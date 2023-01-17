@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\samochod.csv'
+append into table SAMOCHODY
+fields terminated by ','
+(Id,Pojemnosc_silnika,CENNIK_Id,TYP_PALIWA_Id,MARKA_Id,KOLOR_Id,TYP_Id,MODEL_Id,Wolny)

@@ -1,0 +1,5 @@
+load data
+infile 'C:\Users\piese\Desktop\Bazydanych 2\baza\csv\datawypozyczenia.csv'
+append into table DATA_WYPOZYCZENIA
+fields terminated by ','
+(Id,Data_wypozyczenia DATE "DD-MM-YYYY")
